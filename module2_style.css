@@ -1,0 +1,67 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1,h3{
+    color: #b92b28;
+}
+#login{
+    background-color:#fff;
+}
+#signup{
+    background-color: #b92b28;
+    color: white;
+}
+.upvote{
+    background-color: green;
+    color: #fff;
+}
+
+.post a{
+    color: purple;
+    background-color: yellow;
+}
+nav ul li a{
+    color: indianred;
+}
+p +h3{
+    text-decoration: underline;
+}
+.upvote+button{
+    background-color: rgb(25, 80, 210);
+    color: #fff;
+}
+div > input{
+    background-color: coral;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+h3:hover{
+    text-decoration: none;
+}
+button:active{
+    background-color: pink;
+}
+p:active{
+  font-weight: bolder;
+  color: green;
+}
+input[type="radio"]:checked+label{
+    color: #b92b28;
+    font-weight: bolder;
+}
+/* main :nth-of-type(1){ */
+    /* background-color: #b92b28; */
+/* } */
+h1::first-letter{
+    text-transform: uppercase;
+}
+h3::first-line{
+    text-transform: uppercase;
+}
+h3::selection{
+   background-color: #b92b28;
+}
+

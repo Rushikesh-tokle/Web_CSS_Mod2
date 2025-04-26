@@ -1,0 +1,19 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    color: rgb(0, 166, 255);
+}
+.butt{
+    background-color: aqua;
+}
+#seebutt{
+    background-color: black;
+    color: aliceblue;
+}
+p{
+    font-size: 100px;
+}
+#Myid  p{
+    color: green;
+}
